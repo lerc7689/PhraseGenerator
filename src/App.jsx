@@ -36,6 +36,7 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundImage: `url("${img}")` }}>
+      <h1>Fortune cookies</h1>
       <button className="btn" onClick={changePhrase}>
         <i className="fa-solid fa-arrow-rotate-right"></i>
       </button>

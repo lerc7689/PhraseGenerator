@@ -36,6 +36,12 @@
   font-weight: bold;
   padding-bottom: 20px;
 }
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(187, 34, 34);
+}
 .btn {
   border-radius: 50%;
   font-size: 30px;
