@@ -40,7 +40,6 @@ function App() {
       <button className="btn" onClick={changePhrase}>
         <i className="fa-solid fa-arrow-rotate-right"></i>
       </button>
-
       <h1>Fortune cookies</h1>
       <div className="phraseContainer">
         <Phrase phrase={phrase.quote} />
