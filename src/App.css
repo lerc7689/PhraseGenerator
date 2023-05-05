@@ -16,6 +16,13 @@
   width: 100vw;
   height: 100vh;
   background: cover;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .phraseContainer {
   background-color: azure;
