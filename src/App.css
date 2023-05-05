@@ -51,8 +51,9 @@ h1 {
   border: none;
   background-color: rgb(90, 181, 90);
   color: white;
-  position: fixed;
-  top: 20%;
+  /* position: sticky; 
+  top: 20%;*/
+  margin-top: 0%;
   transition: 0.9s;
 }
 .btn:hover {

@@ -27,8 +27,9 @@ function App() {
     let newImg = getImg();
     let newPhrase = getPhrase();
 
-    while (newImg == img || newPhrase.quote == getPhrase().quote) {
+    while (newImg == img || newPhrase.quote == phrase.quote) {
       newImg = getImg();
+      newPhrase = getPhrase();
     }
     setPhrase(newPhrase);
     setImage(newImg);
@@ -36,10 +37,11 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundImage: `url("${img}")` }}>
-      <h1>Fortune cookies</h1>
       <button className="btn" onClick={changePhrase}>
         <i className="fa-solid fa-arrow-rotate-right"></i>
       </button>
+
+      <h1>Fortune cookies</h1>
       <div className="phraseContainer">
         <Phrase phrase={phrase.quote} />
         <Author author={phrase.author} />
